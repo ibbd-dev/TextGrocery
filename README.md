@@ -4,6 +4,7 @@ TextGrocery
 20170602更新说明：
 
 - 原项目很久没更新了，修复以用以python3项目。
+- 安装：`python3 setup.py install`
 
 ----------------------
 
