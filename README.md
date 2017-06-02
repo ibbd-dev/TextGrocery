@@ -4,7 +4,13 @@ TextGrocery
 20170602更新说明：
 
 - 原项目很久没更新了，修复以用以python3项目。
+- 先安装：`pip3 install jieba`
 - 安装：`python3 setup.py install`
+
+如果在容器内安装，可能会出现错误：`sh: 1: make: not found`, 这时运行可能会报错`OSError: /usr/local/lib/python3.4/dist-packages/tgrocery/learner/util.so.1: cannot open shared object file: No such file or directory`：
+
+解决：可以在外部编译一次，然后挂载到容器内部再编译一次。
+
 
 ----------------------
 
