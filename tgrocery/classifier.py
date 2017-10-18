@@ -56,8 +56,8 @@ class GroceryTextModel(object):
             raise Exception('This model is not usable because svm model is not given')
         # process unicode type
         # 注释了 20170602
-        if isinstance(text, unicode):
-            text = text.encode('utf-8')
+        # if isinstance(text, unicode):
+        #     text = text.encode('utf-8')
         #if not isinstance(text, str):
             #raise TypeError('The argument should be plain text')
 
